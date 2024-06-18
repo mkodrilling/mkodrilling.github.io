@@ -484,7 +484,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a i {
-  background-color: #f35525;
+  background-color: #25D366;
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -497,6 +497,7 @@ Header Style
 
 .header-area .main-nav .nav li:last-child:hover a {
   background-color: #1e1e1e;
+  color: #25D366;
 }
 
 .header-area .main-nav .nav li:last-child:hover a i {
@@ -807,7 +808,7 @@ Banner Style
   font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
+  color: #efefef;
   line-height: 72px;
   width: 50%;
   margin-bottom: 0px;
@@ -862,10 +863,11 @@ Featured Style
 
 .featured .left-image {
   position: relative;
-}
-
-.featured .left-image img {
-  padding-left: 55px;
+  height: 450px;
+  border-style: solid;
+  border-width: 4px;
+  display: inline-block;
+  justify-content: center;
 }
 
 .featured .left-image a {
